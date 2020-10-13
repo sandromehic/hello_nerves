@@ -19,6 +19,7 @@ config :nerves_runtime, :kernel, use_system_registry: false
 
 config :nerves,
   erlinit: [
+    ctty: "ttyAMA0",
     hostname_pattern: "nerves-%s"
   ]
 
